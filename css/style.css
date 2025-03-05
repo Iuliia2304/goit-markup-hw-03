@@ -28,7 +28,45 @@ body {
     padding: 0 15px;
     margin: 0 auto;
  }
- 
+ .page-header{
+    position:relative;
+    background-color: #fff;;
+    max-width: 1140px;
+    max-height: 72px;
+    border-bottom: 1px solid #e7e9fc;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.container-header{
+     display:flex;
+    justify-content: space-between;
+}
+.nav-page{
+display:flex;
+justify-content: space-between;
+align-items: center;
+gap:40px;
+}
+.nav-list{
+    display:flex;
+    gap: 40px;
+    margin-left: 76px;
+}
+.page-contact{
+display:flex;
+gap: 40px;
+}
+.container-title{
+    display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+    width: 100%;
+    height: 600px;
+    background: #2e2f42;
+}
  .logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -67,6 +105,8 @@ color:#4d5ae5;
  .page-contact:focus{
     color:#404bbf;
  }
+
+ 
  .title{
     display: flex;
     justify-content: center;
@@ -156,65 +196,7 @@ color:#4d5ae5;
 
 
 
-.foot-part{
-    background-color:#2e2f42;   
-}
-.logo-footer{
-    font-family: "Raleway", sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color:#4d5ae5;
-}
-.logo-footer span{
-    color:#f4f4fd;
-}
-.text-footer{
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color:#F4F4FD ;
-}
 
-.page-header{
-    position:relative;
-    background-color: #fff;;
-    max-width: 100%;
-    max-height: 72px;
-    border-bottom: 1px solid #e7e9fc;
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
-.container-header{
-     display:flex;
-    justify-content: space-between;
-}
-.nav-page{
-display:flex;
-justify-content: space-between;
-align-items: center;
-gap:40px;
-}
-.nav-list{
-    display:flex;
-    gap: 40px;
-    margin-left: 76px;
-}
-.page-contact{
-display:flex;
-gap: 40px;
-}
-.container-title{
-    display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        flex-direction: column;
-    width: 100%;
-    height: 600px;
-    background: #2e2f42;
-}
 .container-benefits{
     display: flex;
     align-items: center;
@@ -223,6 +205,8 @@ gap: 40px;
     width: 1128px;
     height: 104px;
   margin-top: 110px;
+  padding-left: 120px;
+  padding-right: 120px;
 }
 .benefit-items{
     display: flex;
@@ -241,12 +225,14 @@ gap: 40px;
         flex-direction: row;
           
 }
+
 .container-team{
     background: #f4f4fd;
     width: 100%;
         max-height: 732px;
         margin-top: 120px;
-        padding-top: 110px;
+        padding-top: 10px;
+        
 }
  
 .team{ 
@@ -288,6 +274,7 @@ display: flex;
         text-transform: capitalize;
         color: #2e2f42;
 }
+
 .main-title-portfolio{
     margin-top: 120px;
     width: 1128px;
@@ -329,6 +316,10 @@ display: flex;
         color: #2e2f42;
 
 }
+.section-portfolio{
+    width: 1440px;
+    height: 1040px;
+}
 .container-portfolio{
     margin-top: 110px;
     padding: 10px;
@@ -356,4 +347,52 @@ display: flex;
     flex-wrap: wrap;
     display: flex;
     width: 100%;
+}
+
+.portfolio-descr{
+    display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 8px;
+        border-bottom: 1px solid #e7e9fc;
+            border-left: 1px solid #e7e9fc;
+            border-right: 1px solid #e7e9fc;
+            padding: 32px 16px;
+            width: 360px;
+            height: 120px;
+}
+
+.section-footer{
+ padding-top: 100px;
+ padding-bottom: 100px;
+    padding-left: 156px;
+    padding-right: 1020px;
+    width: 1440px;
+        height: 312px;
+    background-color:#2e2f42;   
+}
+.logo-footer{
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color:#4d5ae5;
+}
+.logo-footer span{
+    color:#f4f4fd;
+}
+.text-footer{
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color:#F4F4FD ;
+}
+.container-footer{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 264px;
+        height: 112px;
 }
