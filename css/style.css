@@ -105,7 +105,7 @@ gap: 40px;
 .nav-list:last-child{
     margin-right: 0;
 }
-.nav-items{
+.nav-list li{
     padding-top:24px;
     padding-bottom: 24px;
 }
