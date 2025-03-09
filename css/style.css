@@ -101,7 +101,10 @@ body {
  .nav-list{ 
 display: flex;
 gap: 40px; 
-padding-top:24px;
+
+}
+.nav-item{
+    padding-top:24px;
 padding-bottom: 24px;
 }
 .nav-list:last-child{
