@@ -100,14 +100,12 @@ body {
  }
  .nav-list{ 
 display: flex;
-gap: 40px;
+gap: 40px; 
+padding-top:24px;
+padding-bottom: 24px;
 }
 .nav-list:last-child{
     margin-right: 0;
-}
-.nav-items{
-    padding-top:24px;
-    padding-bottom: 24px;
 }
 
  .page-contact{
