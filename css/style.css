@@ -67,6 +67,9 @@ body {
     margin-right: auto;
     padding: 0 15px;  
  }
+ .nav{
+    
+ }
  .nav-page{  
     display: flex; 
     flex-direction: row;
@@ -76,6 +79,9 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+ }
+ .nav-page-item{
+    padding: 24px 0;
  }
 
  .logo-header{ 
